@@ -1,0 +1,117 @@
+/* Final Project - Swarm Geo
+	Fill the rest out later
+
+*/
+
+
+.ribbon {
+	 overflow: hidden;
+	 background-color: #F5F514;
+	 position: fixed;
+	 top: 0;
+	 width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #6C6C6C;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 26px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+p {
+	font-family: 'Prompt', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.topnav a.active {
+    background-color: #D7D700;
+    color: #585858;
+    font-size: 26px;
+    padding: 15px 45px;
+}
+
+.container top-img {
+	background-position: 0 -99px;
+    width: 100%;
+    background-size: 100% 500px;
+}
+
+body {
+	font-family: 'Prompt', sans-serif;
+	text-align: center;
+	background-image: url(.main-img);
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.footer {
+	text-align: center;
+}
+
+.main-img {
+	padding-top: 65px;
+	max-height: 500px;
+	width: 100%;
+	align-items: center;
+}
+
+.logo-img {
+	margin: auto;
+	display: block;
+	width: 30%;
+}
+
+.buttonTop {
+	width: 10px;
+	height: 10px;
+}
+
+#topbut {
+    display: none; /* Hidden by default */
+    position: sticky; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #F5F514;
+    color: #6C6C6C; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
+	text-alignment: center;
+}
+
+#topbut:hover {
+	background-color: #555;
+}
+
+/* Fonts */
+
+/*
+
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Prompt', sans-serif;
+
+*/
